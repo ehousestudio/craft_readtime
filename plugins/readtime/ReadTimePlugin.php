@@ -28,7 +28,7 @@ class ReadTimePlugin extends BasePlugin
 	/**
 	 * Register twig extension
 	 */
-    public function hookAddTwigExtension()
+    public function addTwigExtension()
     {
         Craft::import('plugins.readtime.twigextensions.ReadTimeTwigExtension');
 
