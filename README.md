@@ -24,3 +24,9 @@ This plugin counts the words in a rich text field and returns the length of time
 ## License
 
 This work is licenced under the MIT license.
+
+## Feedback?
+
+Contact me on Twitter: [@ryanshrum](https://twitter.com/ryanshrum) or [@ehousestudio](https://twitter.com/ehousestudio)
+
+All questions, comments, and suggestions are welcome!
