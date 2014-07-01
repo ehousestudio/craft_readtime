@@ -20,7 +20,7 @@ class ReadTimePlugin extends BasePlugin
 
     function getDeveloperUrl()
     {
-        return 'http://www.ehousestudio.com';
+        return 'http://www.ryanshrum.com';
     }
     
     
