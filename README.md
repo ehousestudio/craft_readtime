@@ -6,27 +6,46 @@ This plugin counts the words in a rich text field and returns the length of time
 
 ## Installation
 
-1. Upload this directory to `craft/plugins/readtime`
-2. Enable the plugin under Craft Admin > Settings > Plugins
+1. Move `readtime` directory to `craft/plugins` directory
+2. Install the plugin under **Craft Admin &rsaquo; Settings &rsaquo; Plugins**
 
 ## Params
 
-- Suffix (string): Applied to returned number of minutes (**Default:** 'minute read')
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>suffix (string)</td>
+<td>minute read</td>
+<td>Appended to returned number of minutes</td>
+</tr>
+</tbody>
+</table>
 
 ## Usage
 
 ```
 {{ entry.richTextField|readtime }}
+```
+Use without the suffix paramter will return "**X minute read**"
 
+```
 {{ entry.richTextField|readtime(suffix='minutes to read') }}
 ```
+Use with the suffix parameter will return "**X minutes to read**"
 
-## License
-
-This work is licenced under the MIT license.
 
 ## Feedback?
 
 Contact me on Twitter: [@ryanshrum](https://twitter.com/ryanshrum) or [@ehousestudio](https://twitter.com/ehousestudio)
 
-All questions, comments, and suggestions are welcome!
+
+## License
+
+This work is licenced under the MIT license.
