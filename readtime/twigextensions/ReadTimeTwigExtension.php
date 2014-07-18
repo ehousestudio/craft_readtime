@@ -1,5 +1,4 @@
 <?php
-
 namespace Craft;
 
 use Twig_Extension;
@@ -19,13 +18,6 @@ class ReadTimeTwigExtension extends Twig_Extension
         );
     }
 
-    /**
-     * The "Estimated Read Time" filter readtimes up the order of words in a sentence.
-     *
-     * Usage: {{ entry.blogPost|readtime('new string for suffix') }}
-     * @param string $suffix = ' minute read'
-     *
-     */
     public function readtimeFilter($content, $suffix = ' minute read')
     {
         $words = str_word_count(strip_tags($content));

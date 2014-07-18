@@ -10,21 +10,19 @@ class ReadTimePlugin extends BasePlugin
 
     function getVersion()
     {
-        return '1.0.1';
+        return '1.0';
     }
 
     function getDeveloper()
     {
-        return 'Ryan Shrum';
+        return 'eHouse Studio';
     }
 
     function getDeveloperUrl()
     {
-        return 'http://www.ryanshrum.com';
+        return 'http://www.ehousestudio.com.com';
     }
-    
-    
-    
+
 	/**
 	 * Register twig extension
 	 */
