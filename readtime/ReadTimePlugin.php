@@ -5,7 +5,7 @@ class ReadTimePlugin extends BasePlugin
 {
     function getName()
     {
-         return Craft::t('Estimated Read Time');
+         return Craft::t('Read Time');
     }
 
     function getVersion()
@@ -20,7 +20,7 @@ class ReadTimePlugin extends BasePlugin
 
     function getDeveloperUrl()
     {
-        return 'http://www.ehousestudio.com.com';
+        return 'http://www.ehousestudio.com';
     }
 
 	/**
