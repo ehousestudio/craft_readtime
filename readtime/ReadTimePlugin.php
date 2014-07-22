@@ -10,7 +10,7 @@ class ReadTimePlugin extends BasePlugin
 
     function getVersion()
     {
-        return '1.0';
+        return '1.0.1';
     }
 
     function getDeveloper()
@@ -23,9 +23,6 @@ class ReadTimePlugin extends BasePlugin
         return 'http://www.ehousestudio.com';
     }
 
-	/**
-	 * Register twig extension
-	 */
     public function addTwigExtension()
     {
         Craft::import('plugins.readtime.twigextensions.ReadTimeTwigExtension');
