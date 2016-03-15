@@ -20,7 +20,7 @@ This plugin counts the words in a rich text field and returns the length of time
 
 ## Feedback?
 
-Contact me on Twitter: [@ehousestudio](https://twitter.com/ehousestudio)
+Contact us on Twitter: [@ehousestudio](https://twitter.com/ehousestudio)
 
 ## License
 
